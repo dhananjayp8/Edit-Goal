@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Edit Goal</title>
+</head>
+<body>
+     <div class="spacer"></div>
+    <div class="container">
+      <div class="head">
+        <h1>Edit Goal</h1>
+      </div>
+      <div class="div1">
+        <label>Focus Area</label> 
+        <input type="text" placeholder="Recovery Management" readonly>
+        <!-- <label>Recovery Management</label> -->
+      </div>
+      <div class="div2">
+        <label>Goal Name</label> 
+        <input type="text" placeholder="Achieve 2-3 hours of focused deep work daily" readonly>
+        <!-- <select id="goal-select" onchange="toggleGoalInput()">
+          <option value="">Select a goal</option>
+          <option value="addGoal">Add your goal</option>
+        </select> -->
+        <!-- <div id="goal-input-container" style="display: none; margin-top: 10px">
+          <input type="text" placeholder="Enter your goal" id="goal-input" />
+        </div> -->
+      </div>
+      <div class="div3">
+        <div class="inner-slider">
+            <label for="">Goal Effectiveness</label>
+            <input type="range" id="input-slider" min="1" max="9" />
+          </div>
+          <div class="inner-slider">
+            <label for="">Goal Adherence</label>
+            <input type="range" id="input-slider" min="1" max="9" />
+          </div>
+          <div class="check-box">  
+            <span><label>Active</label></span>
+            <input type="checkbox" class="left-check" checked />
+          </div>
+      </div>
+     
+      <!-- <div class="div3">
+        <label for="">Assigned Strategies</label>
+        <p>Schedule 90-minute Flow Blocks: Set aside specific times in your calendar for uninterrupted deep work, aiming to align these with your typical high-energy periods during the day.</p>
+        <br>
+        <p>Implement "Do Not Disturb" Protocol: Create a clear system for minimizing interruptions during flow blocks by turning off notifications, closing unnecessary apps, and communicating your unavailability to colleagues.</p>
+        
+      </div> -->
+      <div class="tb-container">
+        <!-- <div class="btn-goal1">
+          <button>+ &nbsp; New Goals</button>
+        </div> -->
+        <div class="table-container">
+          <table id="data-table">
+            <thead>
+              <tr>
+                <th><label>No.</label</th>
+                <th><label>Strategies</label></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr onclick="showRowData(this)"> -->
+              <tr>
+                <td class="left-td">1</td>
+                <td>Schedule 90-minute Flow Blocks: Set aside specific times in your calendar for uninterrupted deep work, aiming to align these with your typical high-energy periods during the day.</td>
+                <td><input type="checkbox" checked></td>
+              </tr>
+              <tr>
+                <!-- <tr onclick="showRowData(this)"> -->
+                <td class="left-td">2</td>
+                <td>Create optimal environment for flow states</td>
+                <td><input type="checkbox" checked></td>
+                
+              </tr>
+              <tr>
+                <!-- <tr onclick="showRowData(this)"> -->
+                <td class="left-td"><i class="fa-solid fa-plus"></i></td>
+                <td> <select id="strategy-select" onchange="toggleStrategyInput()">
+                    <option value="">Add new strategy</option>
+                    <option value="add-own">Add Your Own Strategy</option>
+                  </select></td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="div5">
+        <button>Save</button>
+         <button>Cancel</button>
+      </div>
+      <!-- <div class="div4">
+        <label for="">Strategies</label><br />
+        <label >Assigned Strategies</label>
+        <p>Schedule 90-minute Flow Blocks: Set aside specific times in your calendar for uninterrupted deep work, aiming to align these with your typical high-energy periods during the day.</p>
+        <br>
+        <p>Implement "Do Not Disturb" Protocol: Create a clear system for minimizing interruptions during flow blocks by turning off notifications, closing unnecessary apps, and communicating your unavailability to colleagues.</p>
+        <select id="strategy-select" onchange="toggleStrategyInput()">
+          <option value="">Select a Strategy</option>
+          <option value="add-own">Add Your Own Strategy</option>
+        </select>
+
+       <div class="plus hidden" id="strategy-input-container">
+          <input
+            type="text"
+            id="strategy-input"
+            placeholder="Enter your strategy"
+            required
+          />
+          <input type="button" value="+" class="btn-plus" />
+        </div>
+        <div class="par-div">
+        
+        
+      </div>
+
+      
+    </div> -->
+    <div class="spacer"></div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
