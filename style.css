@@ -237,31 +237,31 @@ inner-slider label {
   margin-right: 5rem;
 }
 
-table {
+#data-table {
   width: 100%;
   border-collapse: collapse;
 }
-th {
+.th-head {
   font-size: 1.4rem;
   font-weight: 900;
 }
-th,
+/* th,
 td {
   padding: 15px;
   text-align: left;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   cursor: pointer;
   color: #494747;
-}
+} */
 
-th {
+/* th {
   background: rgba(255, 255, 255, 0.3);
-}
+} */
 
-tr:hover {
+/* tr:hover {
   background: rgba(255, 255, 255, 0.2);
   transition: 0.3s ease-in-out;
-}
+} */
 
 td {
   font-size: 1rem;
