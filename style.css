@@ -227,17 +227,18 @@ inner-slider label {
 }
 
 .table1-container {
-  width: 80%;
+  width: 90%;
   /* max-width: 800px; */
   /* background: #0168ab; */
   color: black;
   border-radius: 12px;
   overflow: hidden;
+  padding: 1.2rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   margin-right: 5rem;
 }
 
-#data-table {
+.data-table {
   width: 100%;
   border-collapse: collapse;
 }
