@@ -10,28 +10,28 @@
 </head>
 <body>
     
-    <div class="container">
-      <div class="head">
+    <div class="edit-container">
+      <div class="edit-head">
         <h1>Edit Goal</h1>
       </div>
       <div class="div-focus">
         <label>Focus Area</label> 
-        <input type="text" placeholder="Recovery Management" readonly>
+        <input class="edit-input" type="text" placeholder="Recovery Management" readonly>
       </div>
       <div class="div-goal">
         <label>Goal Name</label> 
-        <input type="text" placeholder="Achieve 2-3 hours of focused deep work daily" readonly>
+        <input type="text" class="edit-input" placeholder="Achieve 2-3 hours of focused deep work daily" readonly>
       </div>
-      <div class="div-slider">
-        <div class="inner-slider">
-            <label for="">Goal Effectiveness</label>
-            <input type="range" id="input-slider" min="0" max="10" />
+      <div class="div-edit-slider">
+        <div class="inner-edit-slider">
+            <label class="edit-label">Goal Effectiveness</label>
+            <input type="range"  class="input-edit-slider edit-input" min="0" max="10" />
           </div>
-          <div class="inner-slider">
-            <label for="">Goal Adherence</label>
-            <input type="range" id="input-slider" min="0" max="10" />
+          <div class="inner-edit-slider">
+            <label class="edit-label">Goal Adherence</label>
+            <input type="range" class="input-edit-slider edit-input" min="0" max="10" />
           </div>
-          <div class="check-box">  
+          <div class="edit-check-box">  
             <span><label>Active</label></span>
             <input type="checkbox" class="left-check" checked />
           </div>
@@ -50,19 +50,19 @@
             </thead>
             <tbody>
               
-              <tr >
+              <tr class="edit-td">
                 <td class="left-td">1</td>
                 <td>Schedule 90-minute Flow Blocks: Set aside specific times in your calendar for uninterrupted deep work, aiming to align these with your typical high-energy periods during the day.</td>
                 <td><input type="checkbox" checked></td>
               </tr>
-              <tr>
+              <tr class="edit-td">
                
                 <td class="left-td">2</td>
                 <td>Create optimal environment for flow states</td>
                 <td><input type="checkbox" checked></td>
                 
               </tr>
-              <tr>
+              <tr class="edit-td">
                 
                 <td class="left-td"><i class="fa-solid fa-plus"></i></td>
                 <td> <select id="strategy-select">
